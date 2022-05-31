@@ -47,7 +47,7 @@ intervals (ex. every 10 minutes).
 
 Example invocation of this script:
 
-    docker pull zachlatta/freewrite-sync && docker run --rm -i -v /volume1/pokedex/apps/freewrite-sync/config/rclone /config/rclone -v /volume1/pokedex/txt:/txt zachlatta/freewrite-sync
+    docker pull zachlatta/freewrite-sync && docker run --rm -i -v /volume1/pokedex/apps/freewrite-sync/config/rclone:/config/rclone -v /volume1/pokedex/txt:/txt zachlatta/freewrite-sync
 
 ## License
 
