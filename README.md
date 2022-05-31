@@ -3,6 +3,12 @@
 A personal script to sync notes written on a Freewrite electronic typewriter to
 my personal file organization system.
 
+**Commands:**
+
+Build and push latest to Docker registry:
+
+    $ ./bin/build && ./bin/push
+
 ## Config
 
 It expects an rclone config file to be housed at /config/rclone/rclone.conf.
